@@ -1,0 +1,10 @@
+---
+deployment:
+  name: Base ServerTemplate for Linux v13.5
+  description: A deployment containing only a Base ServerTemplate for Linux v13.5 server.
+  server_tag_scope: account
+  servers:
+  - name: Base ServerTemplate for Linux v13.5
+    server_template:
+      publication_id: 177541
+    cloud_id: 1
