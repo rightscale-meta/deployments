@@ -1,0 +1,23 @@
+{
+  "deployment": {
+    "name": "RightScale base servers",
+    "description": "A deployment containing all official RightScale and RightScale OSS base servers.",
+    "servers": [
+      {
+        "name": "Base ServerTemplate for Linux (v13.5)",
+        "server_template": "https://raw.github.com/rightscale-meta/server_templates/master/base_servertemplate_for_linux_v13.5.yaml",
+        "cloud_id": 1
+      },
+      {
+        "name": "Base ServerTemplate for Linux (RSB) (v13.5.0-LTS)",
+        "server_template": "https://raw.github.com/rightscale-meta/server_templates/master/base_servertemplate_for_linux_rsb_v13.5_lts.yaml",
+        "cloud_id": 1
+      },
+      {
+        "name": "RightScale Linux Server RL 5.8",
+        "server_template": "https://raw.github.com/rightscale-meta/server_templates/master/rightscale_linux_server_rl_5.8.yaml",
+        "cloud_id": 1
+      }
+    ]
+  }
+}
